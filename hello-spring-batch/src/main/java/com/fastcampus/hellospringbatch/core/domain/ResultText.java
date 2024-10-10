@@ -12,10 +12,10 @@ import javax.persistence.*;
 @Getter
 @Setter
 @DynamicUpdate
-@Table(name = "plain_text")
+@Table(name = "result_text")
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlainText {
+public class ResultText {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
